@@ -1,0 +1,26 @@
+@import 'core/bootstrap-modified';
+@import 'core/mixins';
+@import 'core/base';
+@import 'core/header';
+@import 'core/footer';
+@import 'core/figures';
+@import 'core/fullscreen';
+@import 'core/byline';
+@import 'core/mobilefix';
+@import 'tbt-core/themes/dark';
+// @import 'tbt-core/themes/static-header';
+
+
+
+.image .headline-overlay .h2 { 
+font-size: calc(1.5vw * 1 + 70px)!important;
+}
+
+.section-break{ 
+font-size: 2rem!important;
+letter-spacing: 0.5em!important;
+}
+
+.ios #img13nfl .image { 
+height:105vh!important; 
+}
